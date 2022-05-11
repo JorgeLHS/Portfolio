@@ -100,7 +100,7 @@ body {
     grid-template-rows: 3;
     margin-left: 40px;
     margin-top: 30px;
-    font-size: 10px;
+    font-size: 30px;
 }
 
 a{
@@ -130,10 +130,11 @@ a:hover{
 
 .description1, .description2, .description3{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: start;
     height: auto;
-    width: 300px;
+    width: 100%;
 }
 
 .image1{
@@ -145,6 +146,7 @@ a:hover{
 .image2{
     height: 40px;
     width: 40px;
+    border: 1px solid red;
     background-image: url(./instagram-logo.png);
     background-size: cover;
     }
